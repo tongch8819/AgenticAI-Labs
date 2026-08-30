@@ -1,0 +1,11 @@
+/setup.sh
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.cache/
+*.log
+runtime-log.txt
+.venv/
+venv/
