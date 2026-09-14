@@ -69,7 +69,8 @@ def main(user_query: str):
     {
         "model": "gemini-3.6-flash",
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
-        "api_key": os.environ.get("GEMINI_API_KEY")
+        "api_key": os.environ.get("GEMINI_API_KEY"),
+        "price": [0.00075, 0.00375],
     }
     
         ]}
